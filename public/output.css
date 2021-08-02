@@ -637,6 +637,8 @@ a{
   padding-right: 1rem;
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
+  --tw-text-opacity: 1;
+  color: rgba(255, 255, 255, var(--tw-text-opacity));
 }
 
 .sr-only {
@@ -32247,6 +32249,22 @@ a{
 
 .content-none {
   content: none;
+}
+
+.p21{
+  padding: 5.5rem;
+}
+
+.p-21{
+  padding: 5.5rem;
+}
+
+.hover\:p-21:hover{
+  padding: 5.5rem;
+}
+
+.focus\:p-21:focus{
+  padding: 5.5rem;
 }
 
 .btn{

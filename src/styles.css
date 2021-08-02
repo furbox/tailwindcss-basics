@@ -11,7 +11,18 @@
 
 @layer components{
     .btn-blue{
-        @apply py-2 px-4 bg-blue-500;
+        @apply py-2 px-4 bg-blue-500 text-white;
+    }
+}
+
+@layer utilities{
+    .p21{
+        padding: 5.5rem;        
+    }
+    @variants hover, focus{
+        .p-21{
+            padding: 5.5rem;
+        }
     }
 }
 
