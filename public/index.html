@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tailwind CSS</title>
+    <link rel="stylesheet" href="output.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="font-aria p-0">Website title</h1>
+    </div>
+    <div class="lg:container lg:mx-auto bg-gray-600 h-32">
+        <h2 class="text-2xl text-gray-200 text-center">Container</h2>
+        <p class="font-mono text-2xl">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Est ea provident vitae perferendis ullam, explicabo quaerat voluptates consectetur ducimus aperiam.</p>
+        <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-3">
+            <div class="font-sans bg-green-300 w-full h-40 text-center text-xl">
+                grid col1
+            </div>
+            <div class="font-sans bg-green-300 w-full h-40 text-center text-xl">
+                grid col2
+            </div>
+            <div class="font-sans bg-green-300 w-full h-40 text-center text-xl">
+                grid col3
+            </div>
+        </div>
+        <div class="flex gap-8 flex-wrap">
+            <div class="flex-initial font-sans bg-red-400 w-40 h-40 text-center text-gray-200 text-xl">
+                Flex 1
+            </div>
+            <div class="flex-initial font-sans bg-red-400 w-40 h-40 text-center text-gray-200 text-xl">
+                Flex 2
+            </div>
+            <div class="flex-initial font-sans bg-red-400 w-40 h-40 text-center text-gray-200 text-xl">
+                Flex 3
+            </div>
+            <div class="flex-initial font-sans bg-red-400 w-40 h-40 text-center text-gray-200 text-xl">
+                Flex 4
+            </div>
+        </div>
+        <div class="flex">
+            <button class="btn btn-green">
+                ok
+            </button>
+            <button class="btn btn-green">
+                ok
+            </button>
+        </div>
+    </div>
+</body>
+</html>
